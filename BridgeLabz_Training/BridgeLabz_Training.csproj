@@ -7,4 +7,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Basics\" />
+    <Folder Include="Practice\Leetcode\" />
+    <Folder Include="Practice\_3_Linked_List\" />
+    <Folder Include="Practice\_2_Sorting\" />
+    <Folder Include="Practice\_1_Searching\" />
+  </ItemGroup>
+
 </Project>
