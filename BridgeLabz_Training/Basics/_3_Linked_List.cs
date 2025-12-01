@@ -106,9 +106,15 @@ Node* = NULL (next pointing address)
 
 Step 3: Both our Head and Tail pointers will point to this new node.
 
+---------------------------------------------------------
+Way 2:
+-> Node newNode(val);
 
+THIS CREATES A STATIC OBJECT WITHIN THE MEMORY.
 
+WHAT IT DOES IT, THE MOMENT THE CONTROL COMES OUT FROM PUSH - FRONT(FN CALL), THIS OBJECT WILL GET DELETED.
 
+BUT SINCE WE WANT TO CREATE THE LINKED LIST WITHIN OUR MAIN FN.
 
-
- */
+WE AVOID USING THIS METHOD.
+*/
