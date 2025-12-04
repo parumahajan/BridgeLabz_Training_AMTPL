@@ -1,5 +1,5 @@
 ﻿/*
---------------------------------------------------------
+---------------------------------------------------------
 ** LINKED - LIST **
 
 We have individual boxes inside the memory, which we call as Nodes.
@@ -62,8 +62,8 @@ Now, the value that we will take within our LL will be of INTEGER TYPE.
 3) Insert/Delete at head → O(1)
 4) Insert/Delete in middle → O(n)
 --------------------------------------------------------
-5) Insert at tail -> s - O(n) // d,c - O(1)
-6) Delete at tail -> s,c - O(n) // d - O(1)
+5) Insert at tail -> s - O(n) | d,c - O(1)
+6) Delete at tail -> s,c - O(n) | d - O(1)
 --------------------------------------------------------
 * FUNCTIONS IN LL: *
 
