@@ -5,11 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>BridgeLabz_Training.Practice._3_Linked_List._1_Singly_Linked_List._1_Push_Front</StartupObject>
+    <StartupObject>BridgeLabz_Training.TASK.Task5</StartupObject>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Folder Include="Practice\_3_Linked_List\_2_Doubly_Linked_List\" />
-  </ItemGroup>
 
 </Project>

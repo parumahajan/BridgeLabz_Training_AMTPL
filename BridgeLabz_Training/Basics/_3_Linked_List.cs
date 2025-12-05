@@ -65,21 +65,21 @@ Now, the value that we will take within our LL will be of INTEGER TYPE.
 5) Insert at tail -> s - O(n) | d,c - O(1)
 6) Delete at tail -> s,c - O(n) | d - O(1)
 --------------------------------------------------------
-* FUNCTIONS IN LL: *
+* FUNCTIONS IN LL: 
 
 LL has 4 main fns, whenever we pass a value:
 
 1) push_front
--> Inserts a new node in front of the LL
+-> Inserts a new node in front of the LL.
 
 2) push_back
--> Inserts a new node at the end of the LL
+-> Inserts a new node at the end of the LL.
 
 3) pop_front
--> Deletes the node present at the start of LL
+-> Deletes the node present at the start of LL.
  
 4) pop_back
--> Deletes the node present at the end of the LL
+-> Deletes the node present at the end of the LL.
 
 -------------------------------------------------
 Now, we'll practice it:
@@ -96,8 +96,7 @@ CASE 1:
 1) Head is Null (LL is empty)
 -> push_front(1) 
 
-Step 1: Create a new node for storing data.
-(which is 1)
+Step 1: Create a new node for storing data. (which is Node1)
 
 Step 2: We will add this node to our LL, as this node will become our LL's head.
 
