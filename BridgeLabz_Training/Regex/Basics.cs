@@ -1,72 +1,79 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Text.RegularExpressions;
+// It gives access to the .NET Regex class.
 
-namespace BridgeLabz_Training.Regex
+namespace Regex_Imp
 {
-    internal class Basics
+    public class Basics
     {
         public static void Main(String[] args)
         {
-            try
+            string input = "My number is 0123456789";
+
+            string pattern = @"\d{10}";
+            // Used to find sequence of exactly 10 digits
+
+            // We can also write it as: @"\d+"
+            // It states: "one or more digits"
+
+            // @ -> "verbatim string literal"
+
+            // It states: "Take the text inside the quotes exactly as I typed it, and don’t treat backslashes '\' or any other escape characters as special."
+
+            // \ -> escape character
+
+            // \d -> digit (0-9)
+
+            // {10} -> exactly 10 digits
+
+            Regex regex = new Regex(pattern);
+            // It states: "Create an object of the Regex class using the pattern defined."
+
+            // Regex is a class in the .NET library, derived from the namespace, where it provides methods such as:
+
+            // 1) Matching (Match(), Matches())
+
+            // 2) Replacing (Replace())
+
+            // 3) Checking (IsMatch())
+
+            // 4) Splitting (Split())
+
+            Match match = regex.Match(input);
+            // It applies the pattern to the input string, and gives the first match it finds.
+
+            if (match.Success) // boolean property T/F
             {
-                int[] arr = { 1, 2, 3 };
-                Console.WriteLine(arr[5]);
-                // Index out of Range Exception
-            }
-            catch (IndexOutOfRangeException ex)
-            // ex is the variable, where the exception object is stored.
-            {
-                Console.WriteLine("Error: " + ex.Message);
-                // ".Message" is a predefined property of Exception class.
-            }
-            finally
-            {
-                Console.WriteLine("Finally block executed");
+                Console.WriteLine("Found: " + match.Value);
+
+                // .Value is a built-in property of Match class.
             }
         }
     }
 }
+/* SYMBOLS
+
+Caret -> ^ -> Start  --> ^Hello 
+
+Dollar -> $ -> End   --> end$
+
+digits -> \d+
+
+n digits -> \d {n}
+
+Atleast n digits
+
+single char -> . --> c.t
+
+0 or one occ  -> ? --> colou?r ---> color, colour
+(u* --> u kitni baar repeat hoga)
+
+0 or more occ -> ab*a --> aa, aba, abbba 
+(b* --> b kitni baar repeat hoga)
+
+1 or more occ -> + --> a+
 
 
-/*
-  DivideByZeroException
-
-  OverflowException 
-value exceeds the range of its data type
-
-  IndexOutOfRangeException 
-Accessing an array or collection element outside its valid index.
-
-  ArgumentOutOfRangeException 
-thrown when the method argument is outside the allowable range of values.
-
- KeyNotFoundException
-thrown when a key does not exist in a dictionary or collection.
  
- IOException
-General I/O error (e.g., file access issues).
- 
-FormatException
-When you try to convert a string into another type but the string is not in the correct format
+ */
 
-string input = "abc";
-int num = int.Parse(input);  // ❌ FormatException
-*/
-
-try
-{
-    int[] arr = { 1, 2, 3 };
-    Console.WriteLine(arr[5]);
-}
-
-catch (IndexOutOfRangeException ex)
-{
-    Console.WriteLine("Error: " + ex.Message);
-}
-finally
-{
-    Console.WriteLine("Finally block executed");
-}

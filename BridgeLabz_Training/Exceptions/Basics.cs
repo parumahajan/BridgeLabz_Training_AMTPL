@@ -1,12 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BridgeLabz_Training.Exceptions
 {
-    internal class Basics
+    public class Basics
     {
         public static void Main(String[] args)
         {
@@ -32,25 +29,25 @@ namespace BridgeLabz_Training.Exceptions
 
 
 /*
-  DivideByZeroException
+1) DivideByZeroException
 
-  OverflowException 
+2) OverflowException 
 value exceeds the range of its data type
 
-  IndexOutOfRangeException 
+3) IndexOutOfRangeException 
 Accessing an array or collection element outside its valid index.
 
-  ArgumentOutOfRangeException 
+4) ArgumentOutOfRangeException 
 thrown when the method argument is outside the allowable range of values.
 
- KeyNotFoundException
+5) KeyNotFoundException
 thrown when a key does not exist in a dictionary or collection.
  
- IOException
+6) IOException
 General I/O error (e.g., file access issues).
  
-FormatException
-When you try to convert a string into another type but the string is not in the correct format
+7) FormatException
+When you try to convert a string into another type but the string is not in the correct format.
 
 string input = "abc";
 int num = int.Parse(input);  // ❌ FormatException
@@ -66,6 +63,7 @@ catch (IndexOutOfRangeException ex)
 {
     Console.WriteLine("Error: " + ex.Message);
 }
+
 finally
 {
     Console.WriteLine("Finally block executed");
