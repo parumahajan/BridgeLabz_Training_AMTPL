@@ -20,7 +20,7 @@ I will learn more about it, and will practice the commands.
 
 **Issues Faced:** None
 
-## --- DIWALI HOLIDAYS ---
+# --- DIWALI HOLIDAYS ---
 
 # 23rd October, 2025
 **What I’ve Done:**
@@ -65,6 +65,8 @@ Revised concepts of OOPS, but this time with respect to C#.
 Will see how to practically implement OOPS within C#.
 
 **Issues Faced:** None
+
+# --- LEAVE ---
 
 # 29th October, 2025
 **What I’ve Done:**
