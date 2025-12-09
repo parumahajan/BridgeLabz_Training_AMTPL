@@ -242,3 +242,98 @@ Practiced reverse a linked list question on Leetcode.
 Will implement Doubly and Circular Linked List.
 
 **Issues faced:** None
+
+
+# 29th November, 2025
+**What I have done:**
+Learnt about Doubly Linked List. Learnt about the operations used in it.
+
+**What I will do next:**
+Will implement Doubly Linked List.
+
+**Issues faced:** None
+
+
+**1st Decemeber, 2025**
+**What I have done:**
+Created a Custom Doubly-Linked List.
+
+**What I will do next:**
+Will do it now with In-Built functions.
+
+**Issues faced:** None
+
+
+
+**2nd Decemeber, 2025**
+**What I have done:**
+Practiced and Implemented Linked List with In-Built functions and collections.
+
+**What I will do next:**
+Revise all the concepts done till now.
+
+**Issues faced:** None
+
+
+**3rd Decemeber, 2025**
+**What I have done:**
+Tried integrating Linked-List with Collections.
+
+**What I will do next:**
+Revise all the things done till now.
+
+**Issues faced:** None
+
+
+**4th Decemeber, 2025**
+**What I have done:**
+Revised all the topics from starting till now.
+
+**What I will do next:**
+Practice the implementation of each, to revise better.
+
+**Issues faced:** None
+
+
+
+**5th Decemeber, 2025**
+**What I have done:**
+Gave the Review 4, and implemented a question consisting of Linked List, Arrays, and Hash table. Pushed it to Github as well.
+
+**What I will do next:**
+Will revise all the concepts in depth for tomorrow's review.
+
+**Issues faced:** None
+
+
+
+**6th Decemeber, 2025**
+**What I have done:**
+Gave the Viva for Review 4 to Chirag sir, regarding Collections, Exceptions, and DSA, and also explained the implementation done for the yesterday's question to him.
+
+**What I will do next:**
+Will revise all the concepts in depth for the next review.
+
+**Issues faced:** None
+
+
+
+**8th Decemeber, 2025**
+**What I have done:**
+Studied about NUnit and LINQ.
+
+**What I will do next:**
+Will study about Closures, Delegates, Events etc., which have to be asked for next review.
+
+**Issues faced:** None
+
+
+**9th Decemeber, 2025**
+**What I have done:**
+
+
+**What I will do next:**
+
+
+**Issues faced:** None
+
