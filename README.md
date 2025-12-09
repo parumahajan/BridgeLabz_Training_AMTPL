@@ -20,6 +20,7 @@ I will learn more about it, and will practice the commands.
 
 **Issues Faced:** None
 
+# --- DIWALI HOLIDAYS ---
 
 # 23rd October, 2025
 **What I’ve Done:**
@@ -54,6 +55,7 @@ Practice more coding in C#, to make my hand in it.
 
 **Issues Faced:** None
 
+# --- SUNDAY ---
 
 # 27th October, 2025
 **What I’ve Done:** 
@@ -100,6 +102,8 @@ Practiced polymorphism - compile time, and run-time in C#.
 Practice more OOPS concepts, and will practically implement them.
 
 **Issues Faced:** None
+
+# --- SUNDAY ---
 
 # 3rd November, 2025
 **What I Have Done:**
@@ -160,7 +164,7 @@ Will learn more about it, and start learning about Generic Collections.
 
 **Issue faced:** None
 
-
+# --- SUNDAY ---
 
 # 10th November, 2025
 **What I have done:**
@@ -253,6 +257,7 @@ Will implement Doubly Linked List.
 
 **Issues faced:** None
 
+# --- SUNDAY ---
 
 # 1st Decemeber, 2025
 **What I have done:**
@@ -316,7 +321,7 @@ Will revise all the concepts in depth for the next review.
 
 **Issues faced:** None
 
-
+# --- SUNDAY ---
 
 # 8th Decemeber, 2025
 **What I have done:**
