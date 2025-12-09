@@ -254,7 +254,7 @@ Will implement Doubly Linked List.
 **Issues faced:** None
 
 
-**1st Decemeber, 2025**
+# 1st Decemeber, 2025
 **What I have done:**
 Created a Custom Doubly-Linked List.
 
@@ -265,7 +265,7 @@ Will do it now with In-Built functions.
 
 
 
-**2nd Decemeber, 2025**
+# 2nd Decemeber, 2025
 **What I have done:**
 Practiced and Implemented Linked List with In-Built functions and collections.
 
@@ -275,7 +275,7 @@ Revise all the concepts done till now.
 **Issues faced:** None
 
 
-**3rd Decemeber, 2025**
+# 3rd Decemeber, 2025
 **What I have done:**
 Tried integrating Linked-List with Collections.
 
@@ -285,7 +285,7 @@ Revise all the things done till now.
 **Issues faced:** None
 
 
-**4th Decemeber, 2025**
+# 4th Decemeber, 2025
 **What I have done:**
 Revised all the topics from starting till now.
 
@@ -296,7 +296,7 @@ Practice the implementation of each, to revise better.
 
 
 
-**5th Decemeber, 2025**
+# 5th Decemeber, 2025
 **What I have done:**
 Gave the Review 4, and implemented a question consisting of Linked List, Arrays, and Hash table. Pushed it to Github as well.
 
@@ -307,7 +307,7 @@ Will revise all the concepts in depth for tomorrow's review.
 
 
 
-**6th Decemeber, 2025**
+# 6th Decemeber, 2025
 **What I have done:**
 Gave the Viva for Review 4 to Chirag sir, regarding Collections, Exceptions, and DSA, and also explained the implementation done for the yesterday's question to him.
 
@@ -318,7 +318,7 @@ Will revise all the concepts in depth for the next review.
 
 
 
-**8th Decemeber, 2025**
+# 8th Decemeber, 2025
 **What I have done:**
 Studied about NUnit and LINQ.
 
@@ -328,7 +328,7 @@ Will study about Closures, Delegates, Events etc., which have to be asked for ne
 **Issues faced:** None
 
 
-**9th Decemeber, 2025**
+# 9th Decemeber, 2025
 **What I have done:**
 
 
