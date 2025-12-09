@@ -20,7 +20,7 @@ I will learn more about it, and will practice the commands.
 
 **Issues Faced:** None
 
-# --- DIWALI HOLIDAYS ---
+## --- DIWALI HOLIDAYS ---
 
 # 23rd October, 2025
 **What I’ve Done:**
