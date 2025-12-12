@@ -52,7 +52,7 @@ When you try to convert a string into another type but the string is not in the 
 string input = "abc";
 int num = int.Parse(input);  // ❌ FormatException
 */
-
+/*
 try
 {
     int[] arr = { 1, 2, 3 };
@@ -68,3 +68,38 @@ finally
 {
     Console.WriteLine("Finally block executed");
 }
+
+
+
+
+
+TRY
+-> trying to run the block of code.
+
+If we fail to run the program, then it will terminate abnormally.
+
+In order to avoid it, we need to provide an alternate route for smooth termination
+for this, we use CATCH block.
+
+if suppose fileexception occurs,
+In order to close the connection of the file, we need to close the connection.
+since, its a costly resource.
+
+In order to this, we use FINALLY to close it.
+
+Whether exception occurs or not, we have to still use "Finally" to close the connection.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/

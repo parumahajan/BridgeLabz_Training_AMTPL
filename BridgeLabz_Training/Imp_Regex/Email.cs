@@ -2,7 +2,7 @@
 using System.Text.RegularExpressions;
 
 
-namespace BridgeLabz_Training.Regex
+namespace BridgeLabz_Training.Imp_Regex
 {
     internal class Email
     {
@@ -24,8 +24,6 @@ namespace BridgeLabz_Training.Regex
             {
                 Console.WriteLine("No Match Found");
             }
-
-
         }
     }
 }

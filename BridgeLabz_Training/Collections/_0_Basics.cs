@@ -201,7 +201,7 @@ foreach(var fruit in fruits){
     cw($"fruits : {fruit}");
  */
 //_______________________________________________________
-
+/*
 ArrayList arr = new ArrayList();
 
 arr.Add(100);
@@ -247,3 +247,5 @@ fruits.Add("Banana");
 fruits.Add("Apple");
 
 // _______________________________________________________
+
+*/

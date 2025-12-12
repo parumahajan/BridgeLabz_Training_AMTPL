@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace BridgeLabz_Training.Regex
+namespace BridgeLabz_Training.Imp_Regex
 {
     internal class Phone_No
     {

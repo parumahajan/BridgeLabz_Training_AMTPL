@@ -10,13 +10,15 @@ ATTRIBUTES:
 
 [Test] → marks a method as a test
 
-[TestFixture] → marks a class that contains tests
+[TestFixture] → marks a class as a container which contains test cases
 
 [SetUp] → runs before each test (initialize objects)
 
-[TearDown] → runs after each test (cleanup)
+[TearDown] → runs after each test to close costly resources (for cleanup purpose)
 
 [TestCase(...)] → creates parameterized tests
+
+[OneTimeTearDown
 ---------------------------------------------------
 ASSERTIONS (E-N-T)
  
