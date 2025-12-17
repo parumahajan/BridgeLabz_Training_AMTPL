@@ -73,7 +73,7 @@ TYPES OF DELEGATES:
 -> It stores multiple methods, and then run them in sequence.
 
 3) BUILT-IN DELEGATES
--> 1) valueFunc -> method with return value
+-> 1) Func      -> method with return value
    2) Action    -> method with no return 
    3) Predicate -> returns boolean
 -----------------------------------------------
@@ -130,20 +130,16 @@ CREATION OF DELEGATES:
 ->  We create it when we want a named, explicit-delegate type.
 
 
-public static void Add(int x, int y){
-        return a + b;
-}
-
 public delegate int Mathop(int x, int y);
-
-Mathop add = new Methop(Add);
+static int Add(int a, int b) => a + b;
+Mathop add = new Mathop(Add);
         
 // delegate constructor with method group
 // Add is another method, which we are passing as parameter
 
 Mathop add2 = Add;
 
-static int Add(int a, int b) => a + b;
+
 -----------------------------------------------
 
 2) BUILT-IN GENERIC DELEGATES
