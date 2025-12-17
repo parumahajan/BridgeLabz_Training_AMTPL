@@ -388,7 +388,7 @@ Learn about Events, Closures, and Reflections.
 ## SUNDAY
 
 
-**# 15th Decemeber, 2025
+** 15th Decemeber, 2025
 What I have done:**
 Learnt about Events.
 
