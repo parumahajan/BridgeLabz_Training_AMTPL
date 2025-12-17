@@ -344,3 +344,65 @@ Learn about Lambda, Delegates, Events, Closures, and Reflections.
 
 **Issues faced:** None
 
+
+# 10th Decemeber, 2025
+**What I have done:**
+Implemented NUnit, and learnt about I/O Stream, and the methods used in it.
+
+**What I will do next:**
+Revise for tomorrow's review, and learn about Lambda, Delegates, Events, Closures, and Reflections.
+
+**Issues faced:** None
+
+
+# 11th Decemeber, 2025
+**What I have done:**
+Gave Review-5 to Chandrasekhar sir, and even implemented a question based on custom exceptions, and multiple-inheritance. Also, learnt today about Delegates in the day.
+
+**What I will do next:**
+Learn about Delegates, Events, Closures, and Reflections.
+
+**Issues faced:** None
+
+
+# 12th Decemeber, 2025
+**What I have done:**
+Implemented Delegates today, and learnt the theory of LINQ.
+
+**What I will do next:**
+Learn about Events, Closures, and Reflections.
+
+**Issues faced:** None
+
+
+# 13th Decemeber, 2025
+**What I have done:**
+Learnt and implemented Lambda expression.
+
+**What I will do next:**
+Learn about Events, Closures, and Reflections.
+
+**Issues faced:** None
+
+
+## SUNDAY
+
+
+**# 15th Decemeber, 2025
+What I have done:**
+Learnt about Events.
+
+**What I will do next:**
+Learn about Closures, Reflections, and SOLID Design Principles.
+
+**Issues faced:** None
+
+
+# 16th Decemeber, 2025
+**What I have done:**
+Learnt about SOLID Design Principles.
+
+**What I will do next:**
+Start with Ado .NET and SQL (Database). 
+
+**Issues faced:** None
