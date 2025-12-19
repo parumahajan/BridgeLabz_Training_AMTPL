@@ -398,11 +398,46 @@ Learn about Closures, Reflections, and SOLID Design Principles.
 **Issues faced:** None
 
 
+
 # 16th Decemeber, 2025
 **What I have done:**
 Learnt about SOLID Design Principles.
 
 **What I will do next:**
 Start with Ado .NET and SQL (Database). 
+
+**Issues faced:** None
+
+
+
+# 17th Decemeber, 2025
+**What I have done:**
+Started with Database and SQL. Completed DDL, DML, DQL, DCL, TCL commands, and also studied about various type of keys.
+
+**What I will do next:**
+Learn more about SQL and Database, and then start with Ado .NET.
+
+**Issues faced:** None
+
+
+
+# 18th Decemeber, 2025
+**What I have done:**
+Downloaded MS SQL Server 2025 Express, and SSMS (SQL Server Management Studio), and practiced few SQL queries on it.
+
+
+**What I will do next:**
+Practice the SQL questions sir shared, and learn about Ado .NET.
+
+**Issues faced:** None
+
+
+
+# 19th Decemeber, 2025
+**What I have done:**
+Watched the implementation video which Kural Sir provided, and connected Visual Studio with the SQL Server Database.
+
+**What I will do next:**
+Learn more about ADO .NET, and practice some queries on MS SQL.
 
 **Issues faced:** None
