@@ -389,7 +389,7 @@ Learn about Events, Closures, and Reflections.
 
 
 # 15th Decemeber, 2025
-What I have done:**
+**What I have done:**
 Learnt about Events.
 
 **What I will do next:**
