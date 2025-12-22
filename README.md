@@ -441,3 +441,23 @@ Watched the implementation video which Kural Sir provided, and connected Visual 
 Learn more about ADO .NET, and practice some queries on MS SQL.
 
 **Issues faced:** None
+
+# 20th Decemeber, 2025
+**What I have Done:**
+Studied about ADO .NET.
+
+**What I will do next:**
+Revise all the things done till now, and will practice as much as I can.
+
+**Issues Faced:** None
+
+## SUNDAY
+
+# 22nd Decemeber, 2025
+**What I have Done:**
+Revised all the concepts done till now.
+
+**What I will do next:**
+Give the review (both implementation and viva) to Kural Sir.
+
+**Issues Faced:** None
