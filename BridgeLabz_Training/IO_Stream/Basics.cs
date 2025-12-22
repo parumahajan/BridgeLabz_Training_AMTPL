@@ -2,38 +2,41 @@
 -----------------------------------------------------
 ** I/O STREAMS: **
 -----------------------------------------------------
--> It is sequence of bytes, from which we can read from, or write to.
+-> It is the sequence of bytes, that we can read from, or write to.
 
 -> It hides from where the data is coming from.
  
 -> Almost all streams derive from the abstract class.
 -----------------------------------------------------
-*/ 
-
+-> In .NET, almost ALL STREAMS DERIVE from the ABSTRACT CLASSES like this:
+-----------------------------------------------------
 public abstract class Stream : IDisposable
 {
-    public abstract int Read(byte[] buffer, int offset, int count);
 
-// 1) Read : reads bytes into a buffer.
+1) Read : reads bytes into a buffer.
+    
+-> public abstract int Read(byte[] buffer, int offset, int count);
 
-    public abstract void Write(byte[] buffer, int offset, int count);
 
-// 2) Write: writes bytes from a buffer to the stream.
+2) Write: writes bytes from a buffer to the stream
+    
+-> public abstract void Write(byte[] buffer, int offset, int count);
 
-    public abstract long Seek(long offset, SeekOrigin origin);
 
-// 3) Seek: move the internal position (if the stream supports seeking).
+3) Seek: move the internal position (if the stream supports seeking).
+    
+-> public abstract long Seek(long offset, SeekOrigin origin);
 
-    public abstract void Flush();
 
-// 4) Flush(): forces any buffered data to be written out.
+4) Flush(): forces any buffered data to be written out.
+    
+-> public abstract void Flush();
 
-    public abstract void Close();
 
-// 5) Dispose()/Close(): release resources (important for files, network, etc.).
+5) Dispose()/Close(): release resources (important for files, network, etc.).
+    
+-> public abstract void Close();
 }
-
-/*
 -----------------------------------------------------
 1) Buffer 
 -> Temporary storage area (usually in RAM) used to hold data before it is processed.
@@ -52,10 +55,16 @@ It tells the stream:
 3) Count
 -> How many bytes you want to read or write.
 -----------------------------------------------------
-
+TYPES OF STREAMS:
+-----------------------------------------------------
+1. File Streams
+2. Object Streams
+3. ByteArray Streams
+4. Buffered Streams
+5. Reader and Writer
+-----------------------------------------------------
 1) FILE STREAM
 -> It is used to read/write files from/to disk.
-
  Namespace: System.IO
  
 2) OBJECT STREAM
@@ -64,7 +73,7 @@ It tells the stream:
 -> Unlike Java, C# doesn’t have ObjectInputStream / ObjectOutputStream like Java, but the idea remains same.
 
 3) BYTE-ARRAY STREAM (Memory Stream)
--> It is a stream whose source/target is a byte array in memory, not a file. 
+-> It is a stream whose source/target is a byte array in memory, not a file.
 
 
 

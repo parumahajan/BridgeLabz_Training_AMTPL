@@ -140,6 +140,4 @@ interface IFlyable { void Fly(); }
 -> High-level modules should depend on abstractions, not concrete classes
 
 
-
-
  */
