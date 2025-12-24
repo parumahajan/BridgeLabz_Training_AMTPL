@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryManagementSystem.Tes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusSeatAllocation.Tests", "BusSeatAllocation.Tests\BusSeatAllocation.Tests.csproj", "{716B4178-A016-402E-8614-03982AF1BD2D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginPortal", "LoginPortal\LoginPortal.csproj", "{4A7FBF65-AA64-47B5-B62F-23C578162F6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{716B4178-A016-402E-8614-03982AF1BD2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{716B4178-A016-402E-8614-03982AF1BD2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{716B4178-A016-402E-8614-03982AF1BD2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A7FBF65-AA64-47B5-B62F-23C578162F6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A7FBF65-AA64-47B5-B62F-23C578162F6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A7FBF65-AA64-47B5-B62F-23C578162F6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A7FBF65-AA64-47B5-B62F-23C578162F6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -19,8 +19,7 @@ namespace BridgeLabz_Training.Review.BusSeatAllocation
                 {
                     Console.WriteLine("\n MENU");
                     Console.WriteLine("1. Book Seat");
-                    Console.WriteLine("2. Check");
-                    Console.WriteLine("3. Change");
+                    Console.WriteLine("2. Check Seat Confirmation");
                     Console.WriteLine("4. Exit");
                     Console.Write("Enter your choice: ");
 

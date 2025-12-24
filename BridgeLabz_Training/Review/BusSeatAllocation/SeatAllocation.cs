@@ -1,7 +1,9 @@
 ﻿/*
-Bus Allocation Problem
+Bus Seat Allocation Problem
 - Seat allocation
+
 - If the booking is cancelled, the next bus is allocated to it
+
 - Unit test the code 
     - Seat Allocation Test (for allocation)
     - Seat Cancellation
