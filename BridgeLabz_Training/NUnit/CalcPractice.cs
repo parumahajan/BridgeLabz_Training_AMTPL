@@ -1,13 +1,13 @@
-﻿using System;
+﻿//using System;
 
-namespace BridgeLabz_Training.NUnit;
+//namespace BridgeLabz_Training.NUnit;
 
-public class CalcPractice
-{
-    public string Owner { get; }
+//public class CalcPractice
+//{
+//    public string Owner { get; }
 
-    public CalcPractice(string owner)
-    {
-        if(string.IsNullOrWhiteSpace(owner)
-    }
-}
+//    public CalcPractice(string owner)
+//    {
+//        if(string.IsNullOrWhiteSpace(owner)
+//    }
+//}

@@ -134,10 +134,18 @@ interface IFlyable { void Fly(); }
 4️) I — Interface Segregation Principle (ISP)
 ---------------------------------------------------
 -> Clients should not be forced to implement unused methods.
+
+
+
+
 ---------------------------------------------------
 5️) D — Dependency Inversion Principle (DIP)
 ---------------------------------------------------
 -> High-level modules should depend on abstractions, not concrete classes
 
+
+
+
+---------------------------------------------------
 
  */

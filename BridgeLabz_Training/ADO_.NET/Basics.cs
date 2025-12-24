@@ -63,6 +63,7 @@ CORE COMPONENTS:
 4) DATA READER (Connected Mode)
 -> 
 
+---------------------------------------------------------
 
 
 

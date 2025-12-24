@@ -62,22 +62,35 @@ TYPES OF STREAMS:
 3. ByteArray Streams
 4. Buffered Streams
 5. Reader and Writer
------------------------------------------------------
+
+----------------------------------------------------
 1) FILE STREAM
--> It is used to read/write files from/to disk.
+----------------------------------------------------
+-> A stream used to read from or write to files on disk.
  Namespace: System.IO
- 
+
+----------------------------------------------------
 2) OBJECT STREAM
--> It is used to serialize the objects to a stream and to deserialize it back.
+----------------------------------------------------
+-> It is used to serialize the objects to a stream, and to deserialize it back.
 
--> Unlike Java, C# doesn’t have ObjectInputStream / ObjectOutputStream like Java, but the idea remains same.
+-> C# doesn't have ObjectInputStream / ObjectOutputStream like Java, but the idea is the same.
 
+-> Common modern approach: 
+JSON serialization with System.Text.Json.
+
+----------------------------------------------------
 3) BYTE-ARRAY STREAM (Memory Stream)
+----------------------------------------------------
 -> It is a stream whose source/target is a byte array in memory, not a file.
 
-
-
-
-
+-> A stream that uses memory (RAM) as its backing store instead of a physical file.
+----------------------------------------------------
+4) BufferedStream
+----------------------------------------------------
+-> A stream that adds a buffering layer on top of another stream to improve I/O performance.
+----------------------------------------------------
+5) StreamReader / StreamWriter (Character Streams)
+----------------------------------------------------
 
  */
