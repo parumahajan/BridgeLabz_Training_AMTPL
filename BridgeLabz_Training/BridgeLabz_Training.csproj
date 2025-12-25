@@ -8,4 +8,9 @@
     <StartupObject>BridgeLabz_Training.Review_4.Question_5</StartupObject>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Review 6\" />
+    <Folder Include="Review 5\" />
+  </ItemGroup>
+
 </Project>

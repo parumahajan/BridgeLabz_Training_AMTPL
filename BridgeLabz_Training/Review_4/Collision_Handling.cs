@@ -2,7 +2,7 @@
 ---------------------------------------
 Custom Hash Table (Without Dictionary)
 ---------------------------------------
-Q5: Implement a Custom Hash Table for Storing Emails
+Implement a Custom Hash Table for Storing Emails
 
 Requirements: Use an array of Linked Lists for collision handling (Chaining).
 
