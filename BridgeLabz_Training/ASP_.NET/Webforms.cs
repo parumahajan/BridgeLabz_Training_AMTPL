@@ -4,7 +4,8 @@
 -------------------------------------------------------------
 -> It is a web application framework under ASP.NET, that allows the developers to build Dynamic, Event-Driven web applications using C#.
 
--> It makes the applications in a way, that it looks very similar to Windows Forms (i.e. desktop apps).
+
+-> Thus, it makes applications in a way, that it feels very similar to Windows Forms (i.e. desktop apps).
 
 -> It Abstracts the Complexities of HTML, HTTP, and JavaScript, letting developers work with server-side controls and events.
 
