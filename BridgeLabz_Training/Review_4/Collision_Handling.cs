@@ -26,7 +26,7 @@ using System.Text.RegularExpressions;
 
 namespace BridgeLabz_Training.Review_4
 {
-    public class Question_5
+    public class Collision_Handling
     {
         // Node for Linked List
         public class Node
