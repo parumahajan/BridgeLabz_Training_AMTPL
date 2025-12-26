@@ -76,7 +76,7 @@ KEY-FEATURES:
 
 - It has a rich-control set.
 
-- They are written in ".aspx pages", and are marked with runat="server". 
+- They are written in ".aspx pages", and are marked withc runat="server". 
 
 .aspx : "Active Server Pages Extended"
 Files with these extension are basically aspx pages (HTML + Server side code (in C#) )n
