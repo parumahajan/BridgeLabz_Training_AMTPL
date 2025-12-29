@@ -442,6 +442,8 @@ Learn more about ADO .NET, and practice some queries on MS SQL.
 
 **Issues faced:** None
 
+
+
 # 20th Decemeber, 2025
 **What I have Done:**
 Studied about ADO .NET.
@@ -451,7 +453,9 @@ Revise all the things done till now, and will practice as much as I can.
 
 **Issues Faced:** None
 
+
 ## SUNDAY
+
 
 # 22nd Decemeber, 2025
 **What I have Done:**
@@ -461,3 +465,60 @@ Revised all the concepts done till now.
 Give the review (both implementation and viva) to Kural Sir.
 
 **Issues Faced:** None
+
+
+
+# 23rd Decemeber, 2025
+**What I have Done:**
+Practiced ADO .NET Implementation through the Billing system. 
+
+**What I will do next:**
+Implement ADO .NET for login authentication, and study SQL.
+
+**Issues Faced:** None
+
+
+
+# 24th Decemeber, 2025
+**What I have Done:**
+Started Web Forms.
+Gave review today to Diptanshu sir.
+Pushed the review code to GitHub.
+
+**What I will do next:**
+Learn about Web Forms, and implement CRUD operations.
+
+**Issues Faced:** None
+
+
+
+## CHRISTMAS
+
+
+
+# 26th Decemeber, 2025
+**What I have Done:**
+Watched the video that Kural sir shared today, regarding ASP.NET Web API, and CRUD operations.
+
+**What I will do next:**
+Explore more in ASP.NET Core.
+
+**Issues Faced:** None
+
+
+
+# 27th Decemeber, 2025
+**What I have done: **
+Implemented Webforms, through Book Store Application.
+Made a login and registration page, and also implemented hashing through JWT.
+
+**What I will do next: **
+Complete the features of Bookstore App.
+
+**Issues faced:** None
+
+
+## SUNDAY
+
+
+# 29th Decemeber, 2025
