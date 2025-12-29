@@ -506,11 +506,11 @@ Explore more in ASP.NET Core.
 
 
 # 27th Decemeber, 2025
-**What I have done: **
+**What I have done:**
 Implemented Webforms, through Book Store Application.
 Made a login and registration page, and also implemented hashing through JWT.
 
-**What I will do next: **
+**What I will do next:**
 Complete the features of Bookstore App.
 
 **Issues faced:** None
