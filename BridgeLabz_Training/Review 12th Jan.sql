@@ -155,7 +155,7 @@ INSERT INTO PolicyTypes VALUES
 (2,'LifeInsurance',1000000,15000)
 -------------------------------------------
 -- 2
-CREATE PROCEDURE sp_InsertPolicyWithPayment
+CREATE PROCEDURE spInsertPolicyWithPayment
 @PolicyId INT,
 @CustomerId INT,
 @PolicyTypeId INT,
@@ -192,7 +192,7 @@ EXEC sp_InsertPolicyWithPayment 3,3,2,'2024-03-02','2025-02-05',20000,3,'2024-02
 EXEC sp_InsertPolicyWithPayment 4,4,2,'2024-06-01','2025-02-05',22000,4,'2024-02-05',22000
 ------------------------------------------
 -- 3
-CREATE PROCEDURE sp_PolicyDetails
+CREATE PROCEDURE spPolicyDetails
 AS
 BEGIN
 
@@ -215,7 +215,7 @@ GROUP BY c.CustomerName, pt.PolicyTypeName, p.PremiumAmount
 END
 --------------------------------------------
 -- 4
-CREATE PROCEDURE sp_CustomersWithoutPayments
+CREATE PROCEDURE spCustomersWithoutPayments
 AS
 BEGIN
 
@@ -229,7 +229,7 @@ WHERE py.PaymentId IS NULL
 END
 --------------------------------------------
 -- 5
-CREATE PROCEDURE sp_PoliciesAboveAveragePremium
+CREATE PROCEDURE spPoliciesAboveAveragePremium
 AS
 BEGIN
 
@@ -247,7 +247,7 @@ WHERE p.PremiumAmount > a.AvgPremium
 END
 --------------------------------------------
 -- 6
-CREATE PROCEDURE sp_YearWiseCustomers
+CREATE PROCEDURE spYearWiseCustomers
 AS
 BEGIN
 
@@ -269,7 +269,7 @@ SELECT CustomerId FROM Policies WHERE YEAR(StartDate)=2024
 END
 --------------------------------------------
 -- 7
-CREATE PROCEDURE sp_TotalAmounts
+CREATE PROCEDURE spTotalAmounts
 AS
 BEGIN
 
@@ -305,17 +305,18 @@ END
 -- EXECUTION
 
 -- 3 
-EXEC sp_PolicyDetails
+EXEC spPolicyDetails
 
 -- 4
-EXEC sp_CustomersWithoutPayments
+EXEC spCustomersWithoutPayments
 
 -- 5
-EXEC sp_PoliciesAboveAveragePremium
+EXEC spPoliciesAboveAveragePremium
 
 -- 6
-EXEC sp_YearWiseCustomers
+EXEC spYearWiseCustomers
 
 -- 7
-EXEC sp_TotalAmounts
+EXEC spTotalAmounts
 --------------------------------------------
+
