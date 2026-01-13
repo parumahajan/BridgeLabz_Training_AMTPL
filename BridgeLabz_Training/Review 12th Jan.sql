@@ -119,7 +119,8 @@ CREATE TABLE Policies (
 
     CONSTRAINT FK_Policies_PolicyTypes
     FOREIGN KEY (PolicyTypeId) REFERENCES PolicyTypes(PolicyTypeId),
-
+    
+    CONSTRAINT CK_Policy_Dates
     CHECK (EndDate > StartDate)
 )
 
@@ -139,6 +140,7 @@ CREATE TABLE Claims (
     ClaimDate DATE,
     ClaimAmount DECIMAL(12,2),
     ClaimStatus VARCHAR(20),
+    
     CONSTRAINT FK_Claims_Policies
     FOREIGN KEY (PolicyId) REFERENCES Policies(PolicyId)
 )
@@ -319,4 +321,5 @@ EXEC spYearWiseCustomers
 -- 7
 EXEC spTotalAmounts
 --------------------------------------------
+
 
