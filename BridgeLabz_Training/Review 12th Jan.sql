@@ -36,8 +36,6 @@ Claims ( -> cl
   ClaimAmount,
   ClaimStatus
 )
-
-
 ---------------------------------------------
 1.While creation
 Enforce that:
@@ -52,7 +50,7 @@ USE STORED PROCEDURE FOR THE QUERIES BELOW:
 ---------------------------------------------
 2.Insert a new policy and first premium payment for a customer;
 
-rollback the transaction if premium or dates are invalid using TRY…CATCH.
+rollback the transaction if premium or dates are invalid using TRYâ€¦CATCH.
 ---------------------------------------------
 3.Return policy details showing:
 Customer name, policy type, premium, total paid amount, number of claims.
@@ -304,27 +302,6 @@ ORDER BY TotalPaid DESC
 
 END
 -------------------------------------------
--- 8
-CREATE FUNCTION fn_LoyaltyDiscountPercentage (@CustomerId INT)
-RETURNS DECIMAL(5,2)
-AS
-BEGIN
-DECLARE @TotalPaid DECIMAL(12,2)
-
-SELECT @TotalPaid = ISNULL(SUM(py.Amount),0)
-FROM Policies p
-JOIN Payments py ON p.PolicyId = py.PolicyId
-WHERE p.CustomerId = @CustomerId
-
-RETURN
-CASE
-WHEN @TotalPaid >= 50000 THEN 15
-WHEN @TotalPaid >= 30000 THEN 10
-WHEN @TotalPaid >= 10000 THEN 5
-ELSE 0
-END
-END
---------------------------------------------
 -- EXECUTION
 
 -- 3 
@@ -341,8 +318,4 @@ EXEC sp_YearWiseCustomers
 
 -- 7
 EXEC sp_TotalAmounts
-
--- 8
-SELECT CustomerId,dbo.fn_LoyaltyDiscountPercentage(CustomerId) AS LoyaltyDiscountPercentage
-FROM Customers
 --------------------------------------------
