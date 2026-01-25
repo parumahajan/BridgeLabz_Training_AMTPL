@@ -650,21 +650,163 @@ Faced a lot of errors, while building the project. Debugging took lot of time, b
 
 
 # 10th January, 2026
+**What I have done:**
+Revised MS SQL for review.
+Started with JavaScript, and learnt its basics like Alerts, Prompts, Console.log(), Variables, Datatypes, Conditional statements, and Loops.
 
+**What I will do next:**
+Will learn complete JavaScript.
+
+**Issue faced:** None
 
 ## SUNDAY
+
 # 12th January, 2026
+**What I did:**
+Gave SQL review - Stored Procedures, Triggers, and Functions.
+
+**What I will do:**
+Learn more about JavaScript, then move to Typescript.
+
+**Issues Faced:** None
+
+**Review Repository Link:** https://github.com/parumahajan/BridgeLabz_Training_AMTPL/tree/feature/review/BridgeLabz_Training
+
+
 # 13th January, 2026
+**What I have done:**
+Studied JavaScript, and made changes in my resume, as per the instructions of Diptanshu sir.
+
+**What I will do:**
+Complete JavaScript, and then move to Typescript.
+
+**Issues Faced:** None
+
+
 # 14th January, 2026
-# 15th January, 2026
+**What I have done:**
+Learnt Hoisting, Closures, Callbacks, Promises, and DOM.
+
+**What I will do:**
+Finish JS by today.
+
+**Issues Faced:** None
+
+
+# PONGAL 
+
+
 # 16th January, 2026
+**What I have done:**
+Successfully completed Employee Payroll Application.
+
+**What I will do:**
+Will learn the theory for frontend, and complete the tasks assigned for frontend part for Fundoo project today.
+
+**Issues Faced:** None
+
+**GitHub Repository:**
+https://github.com/parumahajan/Employee_Payroll_Application
+
+
 # 17th January, 2026
+**What I have done:**
+Completed with designing the two templates for the project.
+
+**What I Will do next:** 
+Learn how to integrate the frontend with the backend, and keep learning.
+
+**Issues Faced:** None.
+
 ## SUNDAY
+
+
 # 19th January, 2026
+**What I have done:**
+Implemented more features within Fundoo Notes application.
+Added Checklist and Reminders feature.
+
+**What I Will do next:** 
+Will try to implement Collaborators, and Reminders feature by today.
+Will make it more identical to Google Keep, and add the features which are missing.
+
+**Issues Faced:** None
+
+**Github Repo:**
+https://github.com/parumahajan/Fundoo_Notes
+
+
+
 # 20th January, 2026
+**What I have done:**
+Made improvements in the Fundoo Project, and gave Review-8 - ASP.NET Web API and MS SQL.
+
+**What I will do next:** 
+Will complete Fundoo Project.
+
+**Issues Faced:** None
+
+**Github Repo:**
+https://github.com/parumahajan/Insurance_Claim_Application
+
+
 # 21st January, 2026
+**What I have done:**
+Fixed the Search, Label, and Color functionality, and pushed every commit properly on GitHub.
+
+**What I Will do next:** 
+Will make some improvements, and make it look more identical to Google Keep.
+
+**Issues Faced:** None
+
+**Github Repo:**
+https://github.com/parumahajan/Fundoo_Notes
+
+
+
 # 22nd January, 2026
+**What I have done:**
+Fully completed Fundoo Notes.
+Made changes in resume for Access Meditech.
+
+**What I Will do next:** 
+Will see if more improvements can be done, and keep improving it. 
+I will also revise the flow properly - both Frontend and Backend.
+
+**Issues Faced:** None
+
+**Github Repo:**
+https://github.com/parumahajan/Fundoo_Notes
+
+
+
 # 23rd January, 2026
+**What I have done:**
+Made some further improvements in Fundoo.
+Filled the Pre-Deployement form.
+Started planning for the Bookstore Project.
+
+**What I Will do next:** 
+Learn for the Presentation, and start the Bookstore Project.
+
+**Issues Faced:** None
+
+**Github Repo:**
+https://github.com/parumahajan/Fundoo_Notes
+
+
+
 # 24th January, 2026
+**What I have done:**
+I gave my presentation for Fundoo Project today to Kural sir and Jyotsana ma'am.
+
+**What I will do:**
+Revise Frontend and Backend properly, to prepare well for the interaction.
+
+**Issues faced:** None
+
+
 ## SUNDAY
+
+
 ## REPUBLIC DAY 
