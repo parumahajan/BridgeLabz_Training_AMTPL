@@ -425,7 +425,6 @@ Learn more about SQL and Database, and then start with Ado .NET.
 **What I have done:**
 Downloaded MS SQL Server 2025 Express, and SSMS (SQL Server Management Studio), and practiced few SQL queries on it.
 
-
 **What I will do next:**
 Practice the SQL questions sir shared, and learn about Ado .NET.
 
@@ -520,3 +519,152 @@ Complete the features of Bookstore App.
 
 
 # 29th Decemeber, 2025
+**What I have done: **
+Implemented the entire "Bookstore Application".
+Pushed the app on github as well.
+
+**What I will do next: **
+Study more about ASP.NET Core, and learn about Postman API, and other testing tools
+
+**Issue faced:** None
+
+**GitHub Repository:** https://github.com/parumahajan/Book_Store_App
+
+
+# 30th Decemeber, 2025
+**What I have done:** 
+Gave implementation review to Kural Sir, and implemented the "Employee Leave Management System". 
+Corrected the structure of Book Store Management System, and implemented JWT within it.
+
+**What I will do next:** 
+Learn ASP.NET Core, MVC, and Web API.
+
+**Issue faced:** None
+
+**GitHub Repository:** https://github.com/parumahajan/Employee_Leave_Management_System
+
+
+# 31st Decemeber, 2025
+**What I have done:** 
+Learned about ASP.NET Web API, and implemented it, through Employee Portal Project.
+
+**What I will do next:** 
+Learn about JWT, Postman API testing , and Revise SQL - Triggers and Procedures.
+
+**Issue faced:** None
+
+
+## NEW YEAR ✨
+
+# 2nd January, 2026
+**What I have done:** 
+Started with Fundoo Notes Project. 
+Following Tiered-Architecture, I have created the Solution Explorer structure properly.
+
+**What I will do next:** 
+Complete Fundoo project, and learn things side-by-side, which are needed for backend.
+
+**Issue faced:** None
+
+
+# 3rd January, 2026
+**What I have done:** 
+Created the folder structure, established the connection between the database and project through Migration (following code-first approach). 
+
+**What I will do next:** 
+Implement the part for Registration and User.
+
+**Issue faced:** None
+
+## SUNDAY
+
+# 5th January, 2026
+**What I have done:** 
+Successfully implemented and tested these parts:
+POST /api/auth/register - User registration
+POST /api/auth/verify-email - Email verification 
+
+**What I will do next:** 
+Complete the backend logic for Users:
+POST /api/auth/login - User login
+POST /api/auth/forgot-password - Password reset request
+POST /api/auth/reset-password - Password reset
+
+**Issue faced:** 
+Gmail was rejecting the registration attempt, and was throwing some errors. Had to fix it, by using exception handling, and using a custom password, generated from the original email (included it within appsetiings.json).
+
+
+# 6th January, 2026
+**What I have done:** 
+Successfully implemented and tested:
+POST /api/auth/login - User login
+
+**What I will do next:** 
+Complete the backend part for Users Section:
+POST /api/auth/forgot-password - Password reset request
+POST /api/auth/reset-password - Password reset
+
+And rest of the API Endpoint features.
+
+**Issue faced:** None
+
+
+# 7th January, 2026
+**What I have done:** 
+Successfully implemented and tested:
+POST /api/auth/forgot-password - Password reset request
+POST /api/auth/reset-password - Password reset
+
+**What I will do next:** 
+Link with SMTP GMAIL SERVER
+
+**Issue faced:** None
+
+
+# 8th January, 2026
+**What I have done:** 
+Completed with the entire Users Endpoints section, and started with the Notes Endpoints section. 
+Resolved the issue, which was coming earlier for the OTP, and streamlined the overall process. Authorized the login through JWT token, and validated the authorization. 
+
+**What I will do next:**
+Complete the entire Notes section which is remaining by today.
+
+**Issue faced:** 
+Faced issue while setting up a package in FundooNotes within Program.cs. Also faced a major issue when I did dotnet restore to fix the packages and visual studio, so had to switch to the safe branch (created earlier for backup), and implemented all the work I lost, into it.
+
+**GitHub Repository:** https://github.com/parumahajan/Fundoo_Notes
+
+
+# 9th January, 2026
+**What I have done:** 
+Completed the entire Fundoo project's backend today.
+Implemented and Tested all API Endpoints successfully.
+
+**What I will do next:**
+Will prepare for SQL review, and start JavaScript.
+
+**Issue faced:** 
+Faced a lot of errors, while building the project. Debugging took lot of time, but I was able to resolve all the errors by the end of day.
+
+**GitHub Repository:** https://github.com/parumahajan/Fundoo_Notes
+
+
+# 10th January, 2026
+
+
+## SUNDAY
+# 12th January, 2026
+# 13th January, 2026
+# 14th January, 2026
+# 15th January, 2026
+# 16th January, 2026
+# 17th January, 2026
+## SUNDAY
+# 19th January, 2026
+# 20th January, 2026
+# 21st January, 2026
+# 22nd January, 2026
+# 23rd January, 2026
+# 24th January, 2026
+## SUNDAY
+## REPUBLIC DAY 
